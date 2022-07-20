@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fale conosco</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="suporte.css">
+</head>
+<body>
+    <div id="header">
+        <header>
+            <h1 class="header">Glass</h1>
+            <h2 class="header">A revolução do Google está chegando </h2>
+            <div>
+                <a href="index.html">Home</a>
+                <a href="specs.html">Especificações</a>
+                <a href="fotos.html">Fotos</a>
+                <a href="multimidia.html"> Multimídia</a>
+                <a href="faleconosco.html">Fale conosco</a>
+            </div>
+        </header>
+    </div>
+
+    <section>
+        <article>
+        <form action="" method="get" id="form" action="email.com" oninput="calcular()">
+            <fieldset id="identificar">
+            <legend> Identificação do Usuário</legend>
+                
+                <p><label for="nome">Nome:<input type="text" name="nome" id="nome" placeholder="nome completo"></label> </p> 
+                <p><label for="senha">Senha: <input type="password" name="senha" id="senha" placeholder="crie uma senha"></label></p>
+                <p><label for="email">E-mail: <input type="email" name="email" id="email" placeholder="digite seu email"></label></p>
+
+                <fieldset id="sexualidade">
+                <legend>Sexo:</legend>
+                        <ul>
+                            <p><label for="masculino"><input type="radio" name="sexo" id="masculino" checked > Masculino</label></p>
+                            <p><label for="feminino"><input type="radio" name="sexo" id="feminino" > Feminino</label></p>
+                        </ul>
+                </fieldset>
+                
+                <p><label for="data">Data de Nascimento: <input type="date" name="data" id="data"></label></p>
+            
+            </fieldset>
+
+            <fieldset id="endereco">
+            <legend>Endereço do Usuário</legend>
+                <p><label for="logradouro">Logradouro: <input type="text" name="logradouro" id="logradouro" placeholder="rua, av, trav..."></label></p>
+                <p><label for="numero">Número: <input type="number" name="numero" id="numero" min="0" max="1000" size="30px"></label></p>
+                <p><label for="estado">Estado: <select name="estado" id="estado">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP" selected>São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                    <option value="EX">Estrangeiro</option>
+                </select></label></p>
+                <p><label for="cidade">Cidade: <input type="text" name="cidade" id="cidade"></label></p>  
+               <p><label for="cep">Cep: <input type="number" name="cep" id="cep">
+                </label></p>
+            </fieldset>
+
+            <fieldset id="mensagem">   
+            <legend>Mensagem do Usuário</legend>
+                <p><label for="urgencia">Grau de Urgência: <input type="range" name="urgencia" id="urgencia" min="0" max="10"></label></p>
+                <p><label for="men">Mensagem: <textarea name="men" id="men" cols="30" rows="5" placeholder="digite aqui sua mensagem"></textarea></label></p>
+                
+            </fieldset>
+
+            <fieldset id="comprar"> 
+            <legend>Quero um Google Glass</legend>
+                <p><labeb for="box"><input type="checkbox" checked name="box" id="box"> Gostaria de adquirir um Google Glass quando disponível?</labeb></p>
+                <p><label for="Cor">Cor: <input type="color" name="cor" id="cor" value="#7fffd4"></label></p>
+                <p><label for="quant">Quantidade: <input type="number" name="quant" id="quant" min="0" max="5" value="0"></label></p>
+                <p><label for="valor">Preço Total: R$ <input type="text" name="valor" id="valor" placeholder="total a pagar" readonly></label></p>
+            </fieldset>
+
+            <input id="botao" type="submit" value="enviar">
+            <button>enviar</button>
+        </form>
+
+        </article>
+    </section>
+
+
+    <footer>
+        <p >&copy; Copyright 2013 - by Gustavo Guanabara <a href="">Facebook</a> | <a href="">Twitter</a></p>
+        
+    </footer>
+
+    <script>
+        function calcular(){
+            var quant=parseInt(window.document.getElementById('quant').value)
+            var tot=quant *1500
+            window.document.getElementById('valor').value=tot
+            // // tentar fazer desse jeito depois 
+            // var total=document.getElelemntById('valor').value
+            // total.innerHTML="o valor do tot"
+        }
+    </script>
+</body>
+</html>

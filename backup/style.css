@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'danub2';
+    src: url('fontes/DANUBE__.TTF');
+}
+*{
+    font-family: 'nunito';
+    margin: 0px;
+    padding: 0px;
+} 
+header{
+    padding: 10px 10px 15px 10px;
+    background-color: black;
+}
+
+h1.header{
+    font-family: 'danub2';
+    font-weight: normal;  
+    color: rgb(255, 255, 255);  
+    padding: 25px 0px 0px 20px;
+    font-size: max(2.5vw,30px);
+}
+h2.header{
+    font-family: 'nunito';
+    font-weight: 100;
+    color: rgb(190, 190, 190);
+    padding: 10px 0px 20px 20px;
+    text-indent: 0px;
+}
+div{
+    padding: 10px;
+}
+a{ 
+    border-radius: 0px;
+    padding: 10px;
+    text-decoration: none;
+    color:rgb(255, 255, 255) ;
+    font-size: min(4vw,14px);
+    /* background-color: rgb(224, 216, 198); 
+       color:rgb(31, 31, 31) ;
+    */
+    
+}
+a:hover{
+    font-weight: 700;
+}
+article{
+    padding: 10px;
+}
+article h1,h2,h3{
+    color: rgb(65, 65, 65);
+    font-family: 'nunito';
+    font-weight: 600;
+    text-indent: 20px;
+    font-size:max(2vw,25px);
+}
+p{
+    text-indent:15px;
+    padding: 10px 20px 10px 20px;
+    text-align: justify;
+    font-size: min(3.4vw, 16px);
+    margin: auto;
+    
+}

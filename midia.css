@@ -1,0 +1,21 @@
+article{
+    height:100%;
+}
+article h2{
+    text-align: center;
+    display: block;
+}
+audio{
+    margin: auto;
+    display: block;
+    width: 90%;
+    padding-top: 50px;
+}
+video{
+    margin: auto;
+    display: block;
+    padding: 5px 0px 5px 0px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    
+}

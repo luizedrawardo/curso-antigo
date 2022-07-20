@@ -1,0 +1,70 @@
+article{
+    height: 100%;
+    padding-bottom: 0;
+}
+div#lista{
+    /* margin: auto; */
+    /* nao consigo centralizar a ul*/
+}
+ul{
+    padding: 10px 20px 10px 20px;
+    color: rgb(69, 69, 69);
+    list-style: none;
+    font-weight: 600; 
+    max-width:800px;
+    padding: 20px 0px 0px 0px;
+    /* o padding resolveu o problema de ficar uma imagem debaixo da outra */
+    background-color: black;
+    height: 100vh;
+    margin: auto;
+}
+li{
+    font-size: max(1vw,16px);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin:  5px;
+    background-color: rgb(117, 170, 170);
+    background-position: center center;
+    background-size: 400px;
+}
+ li span{
+    opacity:0 ;
+    background-color: rgba(74, 74, 74, 0.557);
+ }
+ li:hover span{
+    opacity: 1;
+    line-height: 370px;
+    font-size: 12px;
+ }
+ li:hover{
+    -webkit-transform: scale(1.2);
+    background-size: 200px;
+    -webkit-transition: all 0.8s;
+ }
+li#foto1{
+    background-image: url('dados do curso/_imagens/galeria-01.jpg');
+    /* background-size: cover; */
+}
+li#foto2{
+    background-image: url('dados do curso/_imagens/galeria-02.jpg');
+    /* background-size: cover; */
+}
+li#foto3{
+    background-image: url('dados do curso/_imagens/galeria-03.jpg');
+    /* background-size: cover; */
+}
+li#foto4{
+    background-image: url('dados do curso/_imagens/galeria-04.jpg');
+    /* background-size: cover; */
+}
+li#foto5{
+    background-image: url('dados do curso/_imagens/galeria-05.jpg');
+    /* background-size: cover; */
+}
+li#foto6{
+    background-image: url('dados do curso/_imagens/galeria-06.jpg');
+    /* background-size: cover; */
+}

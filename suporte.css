@@ -1,0 +1,74 @@
+li{
+    text-indent:15px;
+    padding: 10px 20px 10px 20px;
+    text-align: justify;
+    font-size: max(1vw,16px);
+    margin: auto;
+    color: rgb(97, 97, 97); 
+    
+}
+
+form{
+    padding: 10px;
+    max-width:600px;
+    margin: auto;
+ 
+}
+input,textarea{
+    text-indent:10px;
+    text-align: justify;
+    font-size: max(1vw,16px);
+    margin: auto;
+    color: rgb(97, 97, 97);
+}
+input:hover,textarea:hover{
+    background-color: rgb(231, 239, 239);
+}
+fieldset{
+    background-color:rgba(255, 255, 255, 0.858);
+    padding: 10px;
+    border: 1px solid rgb(49, 34, 24);
+}
+fieldset#sexualidade{
+    background-color:rgb(255, 255, 255);
+}
+legend{
+    color: rgb(54, 43, 34);
+    font-family: 'nunito';
+    font-weight: 600;
+    font-size:max(1.5vw,22px);
+    padding: 0px 10px 0px 10px ;
+}
+
+input#botao{
+    font-size:max(1.5vw,22px);
+    margin: 10px;
+    padding: 10px;
+    margin-left: 0;  
+}
+button{
+     font-size:max(1.5vw,22px);
+    margin: 10px;
+    padding: 10px;
+    margin-left: 0;
+}
+fieldset#identificar{
+    background: url('dados do curso/_imagens/icone-contato.png');
+    background-repeat:no-repeat ;
+    background-position: right top;
+}
+fieldset#endereco{
+    background: url('dados do curso/_imagens/icone-endereco.png');
+    background-repeat:no-repeat ;
+    background-position: right;
+}
+fieldset#mensagem{
+    background: url('dados do curso/_imagens/icone-mensagem.png');
+    background-repeat:no-repeat ;
+    background-position: right;
+}
+fieldset#comprar{
+    background: url('dados do curso/_imagens/icone-pagamento.png');
+    background-repeat:no-repeat ;
+    background-position: right;
+}
