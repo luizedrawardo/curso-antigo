@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'danub2';
-    src: url('fontes/DANUBE__.TTF');
+    src: url('../fontes/DANUBE__.TTF');
 }
 *{
     font-family: 'nunito';
