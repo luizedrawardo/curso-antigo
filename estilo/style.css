@@ -70,16 +70,17 @@ article h1,h2{
     font-family: 'nunito';
     font-weight: 600;
     font-size:max(1.5vw,22px);
-    padding: 10px 0px 0px 35px;
-    text-align: justify;
-    display: inline-block;
+    padding: 10px 0px 0px 0px;
+    /* text-align: justify; */
+    text-indent: 0%;
 }
 article h3{
     color: rgb(155, 138, 100);
     font-family: 'nunito';
     font-weight: 400;
     font-size:max(1.2vw,18px);
-    padding: 0px 0px 10px 35px;
+    padding: 0px 0px 0px 0px;
+    
 }
 p{
     text-indent:15px;
