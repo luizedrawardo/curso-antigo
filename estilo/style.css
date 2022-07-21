@@ -53,7 +53,9 @@ body{
     padding: 0px;
 }
 section{
-    background-color: rgb(213, 233, 232);
+    /* background-color: rgb(213, 233, 232); */
+    /* lembrando que a section é mais larga que o article e eu tinha deixado de outra cor para facilitar o entendimento */
+    background-color: rgb(255, 255, 255);
     max-width: 1600px;
     margin: auto;
 } 
