@@ -53,22 +53,22 @@ button{
     margin-left: 0;
 }
 fieldset#identificar{
-    background: url('dados do curso/_imagens/icone-contato.png');
+    background: url('imagens/icone-contato.png');
     background-repeat:no-repeat ;
     background-position: right top;
 }
 fieldset#endereco{
-    background: url('dados do curso/_imagens/icone-endereco.png');
+    background: url('imagens/icone-endereco.png');
     background-repeat:no-repeat ;
     background-position: right;
 }
 fieldset#mensagem{
-    background: url('dados do curso/_imagens/icone-mensagem.png');
+    background: url('imagens/icone-mensagem.png');
     background-repeat:no-repeat ;
     background-position: right;
 }
 fieldset#comprar{
-    background: url('dados do curso/_imagens/icone-pagamento.png');
+    background: url('imagens/icone-pagamento.png');
     background-repeat:no-repeat ;
     background-position: right;
 }
