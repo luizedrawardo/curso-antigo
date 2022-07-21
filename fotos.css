@@ -29,6 +29,7 @@ li{
     background-color: rgb(117, 170, 170);
     background-position: center center;
     background-size: 400px;
+    
 }
  li span{
     opacity:0 ;
@@ -44,27 +45,28 @@ li{
     background-size: 200px;
     -webkit-transition: all 0.8s;
  }
-li#foto1{
-    background-image: url('dados do curso/_imagens/galeria-01.jpg');
+li#foto1,img{
+    background-image: url('imagens/galeria-01.jpg');
     /* background-size: cover; */
+   
 }
 li#foto2{
-    background-image: url('dados do curso/_imagens/galeria-02.jpg');
+    background-image: url('imagens/galeria-02.jpg');
     /* background-size: cover; */
 }
 li#foto3{
-    background-image: url('dados do curso/_imagens/galeria-03.jpg');
+    background-image: url('imagens/galeria-03.jpg');
     /* background-size: cover; */
 }
 li#foto4{
-    background-image: url('dados do curso/_imagens/galeria-04.jpg');
+    background-image: url('imagens/galeria-04.jpg');
     /* background-size: cover; */
 }
 li#foto5{
-    background-image: url('dados do curso/_imagens/galeria-05.jpg');
+    background-image: url('imagens/galeria-05.jpg');
     /* background-size: cover; */
 }
 li#foto6{
-    background-image: url('dados do curso/_imagens/galeria-06.jpg');
+    background-image: url('imagens/galeria-06.jpg');
     /* background-size: cover; */
 }
