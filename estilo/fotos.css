@@ -18,6 +18,7 @@ ul{
     /* height: 100vh; */
     margin: auto;
     overflow: hidden;/* resolve o problema das fotos utrapassar o footer */
+    /* mas preciso resolver porque sem definir uma altura minina, no celular a imagem quando abrir vai ficar atras do footer */
     
 
 }
