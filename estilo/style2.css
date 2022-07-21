@@ -54,6 +54,14 @@ footer{
 footer p{
     color: rgb(255, 255, 255);
     text-align: center;
+} 
+footer a{
+    border-radius: 0px;
+    padding: 3px;
+    text-decoration: none;
+    color:rgb(255, 255, 255) ;
+    font-size: max(1.1vw,16px);
+    
 }
 /* div#imagem{
     background-image: url('imagens/1.jpg');
