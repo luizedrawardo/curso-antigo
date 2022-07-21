@@ -26,7 +26,18 @@ table caption{
     border-bottom: none;/* preciso fazer pra nao ficar duas bordas juntas*/
     color: rgb(101, 101, 101);
 }
-
+div#extras{
+    background-color: rgb(176, 166, 152);
+    width: fit-content;
+    margin: 10px;
+    margin: auto;
+    text-indent: 0;
+}
+div#extras h1{
+    text-align: center;
+    display: block; /* nao tendi porque tem que fazer isso  pra ele centralizar
+    */
+}
 img#mao{
     width: 40%;
 }
