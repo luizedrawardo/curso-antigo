@@ -27,15 +27,25 @@ table caption{
     color: rgb(101, 101, 101);
 }
 div#extras{
-    background-color: rgb(176, 166, 152);
-    width: fit-content;
+    background-color: rgb(188, 167, 147);
+    max-width: 750px;
     margin: 10px;
-   border-radius: 5px;
+    margin: auto;
+    border-radius: 5px;
 }
 div#extras h1{
     text-align: center;
-    display: block; /* nao tendi porque tem que fazer isso  pra ele centralizar
-    */
+    font-size:max(1.5vw,22px);
+    color: rgb(255, 255, 255);
+}
+div#extras h2{
+    color:rgb(65, 65, 65) ;
+}
+div#extras p{
+    color: rgb(56, 56, 56);
+}
+div#extras video{
+
 }
 img#mao{
     width: 40%;
