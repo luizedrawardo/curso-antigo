@@ -7,16 +7,19 @@ div#lista{
     /* nao consigo centralizar a ul*/
 }
 ul{
-    padding: 10px 20px 10px 20px;
+    padding: 30px 20px 30px 20px;
     color: rgb(69, 69, 69);
     list-style: none;
     font-weight: 600; 
     max-width:800px;
     padding: 20px 0px 0px 0px;
     /* o padding resolveu o problema de ficar uma imagem debaixo da outra */
-    background-color: black;
-    height: 100vh;
+    background-color: rgba(0, 0, 0, 0);
+    /* height: 100vh; */
     margin: auto;
+    overflow: hidden;/* resolve o problema das fotos utrapassar o footer */
+    
+
 }
 li{
     font-size: max(1vw,16px);
