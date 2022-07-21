@@ -48,7 +48,8 @@ a:hover{
     border-radius: 5px;
 } 
 body{
-    background-color: rgb(135, 135, 135);
+    /* background-color: rgb(135, 135, 135); */
+    background-image: linear-gradient(142deg,red,#00c3ff,#673ab7);
     margin: 0px;
     padding: 0px;
 }
@@ -56,7 +57,7 @@ section{
     /* background-color: rgb(213, 233, 232); */
     /* lembrando que a section é mais larga que o article e eu tinha deixado de outra cor para facilitar o entendimento */
     background-color: rgb(255, 255, 255);
-    max-width: 1600px;
+    max-width: 1200px;
     margin: auto;
 } 
 
